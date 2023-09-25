@@ -25,3 +25,121 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+/* styles/globals.css */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.word {
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-slide-up {
+  animation-name: slideUp;
+}
+
+.animate-slide-down {
+  animation-name: slideDown;
+}
+
+.dash-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dash {
+  width: 10px; /* Initial width of the dash */
+  height: 2px;
+  background-color: #088cd8;
+  margin: 0 5px; /* Margin between dashes */
+  transition: width 0.3s ease-in-out; /* Transition for dash width */
+}
+/* cardScroll.css */
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+@keyframes resetScroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation-move-up {
+  animation: moveUp 1s ease-in-out;
+}
+.auto_scroll_top {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: 1.2rem;
+}
+.box_auto {
+  display: inline-block;
+  min-width: 300px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.box_auto {
+  font-size: 150px;
+  text-align: center;
+}
