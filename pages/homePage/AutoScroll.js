@@ -1,4 +1,9 @@
-import { Splide } from "@splidejs/splide";
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+// import { Splide } from "@splidejs/splide";
+// // Note the corrected import name
 
-new Splide(".splide").mount({ AutoScroll });
+// // Initialize Splide with the Autoplay extension.
+// new Splide(".splide", {
+//   autoScroll: {
+//     speed: 2,
+//   },
+// }); // Use Autoplay instead of AutoScroll
