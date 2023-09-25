@@ -18,16 +18,16 @@ function SixthSection() {
           </div>
           <div class="flex flex-wrap justify-between ">
             <div className="items-center text-black space-x-4 mb-5 flex">
-              <Image src="/tick.svg" height={30} width={30} />
+              <Image src="./tick.svg" height={30} width={30} />
               <div className=" text-sm  opacity-50">live classes</div>
             </div>
             <div className="items-center space-x-4 mb-5 text-black flex">
-              <Image src="/tick.svg" height={30} width={30} />
+              <Image src="./tick.svg" height={30} width={30} />
               <div className="text-sm opacity-50">progress tracking</div>
             </div>
           </div>
           <div className="items-center space-x-4  text-black flex">
-            <Image src="/tick.svg" height={30} width={30} />
+            <Image src="./tick.svg" height={30} width={30} />
             <div className="text-sm opacity-50">diverse question bank</div>
           </div>
           <div className="download py-28  flex flex-col text-start">
@@ -35,15 +35,15 @@ function SixthSection() {
               Download the app
             </div>
             <div className="flex  justify-between">
-              <Image src="/apple.svg" height={50} width={186} />
-              <Image src="/playstore.svg" height={50} width={186} />
+              <Image src="./apple.svg" height={50} width={186} />
+              <Image src="./playstore.svg" height={50} width={186} />
             </div>
           </div>
         </div>
         <div>
           <div className=" mt-3 relative">
             <Image
-              src="/sixthSec1.svg"
+              src="./sixthSec1.svg"
               alt="Sixth Section Background"
               height={730}
               width={491}
@@ -54,7 +54,7 @@ function SixthSection() {
         "
           >
             <Image
-              src="/sixthSec2.svg"
+              src="./sixthSec2.svg"
               alt="Sixth Section Overlay"
               height={210}
               width={410}

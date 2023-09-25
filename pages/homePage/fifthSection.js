@@ -8,7 +8,7 @@ const reviews = [
     video: true,
     review:
       "It has been the most amazing experience studying in Sri Chaitanya. I gained a lot of experience.",
-    image: "/reviews/image1.svg",
+    image: "./reviews/image1.svg",
   },
   {
     name: "Ruchil",
@@ -17,7 +17,7 @@ const reviews = [
     video: false,
     review:
       "It has been the most amazing experience studying in Sri Chaitanya. I gained a lot of experience.",
-    image: "/reviews/image2.svg",
+    image: "./reviews/image2.svg",
   },
   {
     name: "Rakesh",
@@ -26,7 +26,7 @@ const reviews = [
     video: false,
     review:
       "It has been the most amazing experience studying in Sri Chaitanya. I gained a lot of experience.",
-    image: "/reviews/image3.svg",
+    image: "./reviews/image3.svg",
   },
   {
     name: "Ruchil",
@@ -35,7 +35,7 @@ const reviews = [
     video: false,
     review:
       "It has been the most amazing experience studying in Sri Chaitanya. I gained a lot of experience.",
-    image: "/reviews/image2.svg",
+    image: "./reviews/image2.svg",
   },
   {
     name: "Rakesh",
@@ -44,7 +44,7 @@ const reviews = [
     video: false,
     review:
       "It has been the most amazing experience studying in Sri Chaitanya. I gained a lot of experience.",
-    image: "/reviews/image3.svg",
+    image: "./reviews/image3.svg",
   },
 ];
 function LevelShower() {
@@ -70,7 +70,7 @@ function FifthSection() {
             toppers{" "}
           </div>
         </div>
-        <Image src="/topper.svg" height={400} width={600} />
+        <Image src="./topper.svg" height={400} width={600} />
       </div>
       <div className=" px-36">
         <LevelShower />

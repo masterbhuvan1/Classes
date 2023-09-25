@@ -14,7 +14,7 @@ function Footer() {
         <div className="flex md:flex-row flex-col">
           <div className="md:basis-2/4 my-4">
             <Image
-              src="/logo/footer-logo.svg"
+              src="./logo/footer-logo.svg"
               width="250"
               height="250"
               alt="brand logo"

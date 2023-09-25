@@ -61,7 +61,7 @@ const items = [
             subItemAbout: "engineering exam ",
             examTime: "26 weeks to exam",
             listPresent: "false",
-            svg: "/iit.svg",
+            svg: "./iit.svg",
           },
           {
             lid: 1,
@@ -69,7 +69,7 @@ const items = [
             subItemAbout: "medical exam",
             examTime: "26 weeks to exam",
             listPresent: "false",
-            svg: "/medical.svg",
+            svg: "./medical.svg",
           },
           {
             lid: 2,
@@ -77,7 +77,7 @@ const items = [
             subItemAbout: "common entrance test",
             examTime: "26 weeks to exam",
             listPresent: "false",
-            svg: "/cuet.svg",
+            svg: "./cuet.svg",
           },
         ],
       },

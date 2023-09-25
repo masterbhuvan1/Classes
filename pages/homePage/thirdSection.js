@@ -83,7 +83,7 @@ function ThirdSection() {
         </div>
       </div>
       <div className="flex w-[1250px] mx-auto justify-between pr-32 items-center rowww">
-        <Image src="/thirdSection.svg" height={600} width={600} />
+        <Image src="./thirdSection.svg" height={600} width={600} />
 
         <div className="flex flex-col">
           <div className="text-4xl text-black font-bold">focused</div>

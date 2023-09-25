@@ -28,7 +28,7 @@ function FirstSection() {
         <div> we will send an otp for verification</div>
       </div>
       <div className=" mt-5">
-        <Image src="/firstSection.svg" height={400} width={450} />
+        <Image src="./firstSection.svg" height={400} width={450} />
       </div>
     </div>
   );

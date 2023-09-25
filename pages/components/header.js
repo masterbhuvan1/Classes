@@ -93,7 +93,7 @@ function Header() {
         <div className="flex items-center">
           <Image
             className="mx-6 max-md:hidden"
-            src="/logo/logo.svg"
+            src="./logo/logo.svg"
             alt="My Logo"
             width={230}
             height={64}
@@ -140,7 +140,7 @@ function Header() {
             </ul>
           </div>
           <div className="flex mx-7">
-            <Image src="/call.svg" width={50} height={50} />
+            <Image src="./call.svg" width={50} height={50} />
             <div className="flex flex-col">
               <div className="text-yellow-300">need help? talk to experts</div>
               <div className="text-yellow-300">1800-419-427</div>
